@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(178, 248, 225);
+}
+
+h1{
+    color: rgb(114, 91, 245);
+}
+
+h1#Título{
+    text-align: center;
+    background-color: beige;
+    font-size: 2em;
+}
+
+p{
+    text-indent: 20px;
+}
+
+.basico{
+    color: greenyellow;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.maiusculo{
+    font-size: 3em;
+}
+
+.titulo{
+    text-align: center;
+    color: purple;
+    background-color: black;
+}

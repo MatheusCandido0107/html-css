@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+div{
+    display: flex;
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    text-align: center;     /*Alinha o texto ao meio da div*/
+    border: 1px solid black;
+    justify-content: center;  /* Deixa a imagem no meio da div */
+    /*margin-top: 50%;
+    margin-left: 50%;  Define a distância da div até o centro
+}
+
+div:hover{      /*Faz com que aconteça o efeito determinado na css ao passarmos o mouse por cima da div*/
+    background-color: yellow;
+}
+
