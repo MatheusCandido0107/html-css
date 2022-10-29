@@ -21,7 +21,6 @@ body{
     margin: 0% 0% 0% 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
-    text-align: justify;
     line-height: 2em;
 }
 
@@ -77,6 +76,7 @@ nav > a{
 
 p{
     text-indent: 3%;
+    text-align: justify;
 }
 
 .imagens{
