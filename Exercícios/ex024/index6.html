@@ -8,13 +8,18 @@
     <style>
 
         body{
-            height: 98vh;
+            /*
+            height: 98vh;   /*Faz com que 98% da página se torne uma div*/
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
-            background-color: black;
-            background-repeat: repeat-y;
+            background-position: center center;     /*O centreo da image, será prioridade na página*/
+            background-color: black;    
+            background-repeat: repeat-y;  /*Faz com que a imagem se repita no eixp-y, junto ao attachment fixo ele n será necessário*/
+            background-size: cover;   /*A imagem de fundo ficará do tamanho ideal e com a qualidade ideal, isso é, encaixará-se perfeitamente a responsividade*/
+            background-attachment: fixed; /*Deixa o fundo do site fixo enquanto as div's movimentam-se juntas a rolagem*/
+            /* Shorthand
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
-            
+            */
         }
 
         main{
@@ -22,17 +27,17 @@
             border: 1px solid darkblue;
             border-radius: 20px;
             padding: 10px;
-            height: 300px;
-            width: 300px;
+            height: 1000px;
+            max-width: 300px;   /* O texto ocupará somente 300px independente do dispositivo*/
             background-color: white;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>O Doce Amor de NY</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum libero impedit sequi, numquam aliquam, eum delectus enim corrupti laborum inventore quia, adipisci minima reprehenderit sit omnis est voluptas. Deleniti, praesentium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo incidunt dignissimos quibusdam error, architecto a libero iste quasi fugit magnam iusto placeat porro dolores veniam quam consectetur atque expedita inventore? lore</p>
-        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum libero impedit sequi, numquam aliquam, eum delectus enim corrupti laborum inventore quia, adipisci minima reprehenderit sit omnis est voluptas. Deleniti, praesentium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo incidunt dignissimos quibusdam error, architecto a libero iste quasi fugit magnam iusto placeat porro dolores veniam quam consectetur atque expedita inventore? lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore modi ipsum repellendus quos expedita nobis facilis, quam quae sint dolor praesentium, quis amet aspernatur fugiat possimus ad hic quia dignissimos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, voluptatem molestiae? Beatae repellat molestiae provident, perferendis dolores dolore odio nam ipsam, cum est atque iusto libero sequi, natus fugit? Corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia in odit repudiandae deserunt, ad optio eveniet corporis asperiores possimus quo, quisquam, nostrum consectetur numquam! Dolorum alias voluptas dolor illo similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nobis quam, esse voluptatem quod velit obcaecati distinctio incidunt, accusamus labore, molestiae maiores amet! Dicta accusantium libero eveniet cupiditate iure ducimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias necessitatibus in vitae consectetur at dolorum rem laborum enim, sed dolores iure officiis. Aut perspiciatis doloremque animi fuga libero quasi eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus odio nobis asperiores minus iusto, tenetur sequi ea, accusantium similique magni repellat distinctio quasi debitis consequuntur, numquam architecto earum dolores dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatibus tempore necessitatibus iste assumenda ex, quos fugiat velit nobis delectus praesentium rem minima quidem. Omnis quas veniam facilis suscipit perspiciatis!</p>
     </main>
 </body>
 </html>
