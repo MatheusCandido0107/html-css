@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+@font-face {
+    font-family: titulo;
+    src: url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+@font-face {
+    font-family: corpo;
+    src: url(https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap);
+}
+
+header{
+    font-family: titulo, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 1%;                    /*Faz o header ocupar todo o top*/
+}
+
+header > p{
+    font-family: sans-serif;
+    font-weight: 0.5em;
+}
+
+body{
+    margin: 0px;
+    font-family: Sriracha;                    /*Faz o header ocupar as laterais e prencher todo o espaçso*/
+}
