@@ -3,58 +3,70 @@
 :root{
     --fonte1: 'Passion One', 'Cursive';
     --fonte2: 'Sriracha', 'Cursive';
+    --fonte3: 'Verdana', 'Sens-serif'
+    /* A fonte utilizada ñ quer funcionar, outros comentários do YT dizem a mesma coisa.*/
 }
 
-header{
-    font-family: var(--fonte1);
-    background-color: black;
-    color: white;
-    margin: auto;
-    text-align: center;
-    padding: 1px;
-    height: 300px;
-    text-transform: small-caps;    /*Deixa as iniciais em maiúsculo*/
+*{
+    font-size: 5vw;
 }
 
 html, body{
     min-height: 100vh;
+    margin: 0px;
+    font-family: var(--fonte2);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px;
+    padding-top: 1px;
+    height: 250
+
 }
 
 header > h1{
-    margin-top: 100px;
-    font-size: 6em;
+    font-family: var(--fonte1);
+    padding-top: 20px;
 }
 
 header > a{
     text-decoration: none;
     color: white;
-    padding: 0px;
+    padding-bottom: 50px;
+    font-family: var(--fonte3);
+    font-size: 0.3em;
 }
 
-body{
-    font-family: 'Sriracha', sans-serif;
-    font-weight: bolder;
-    font-style: italic;
-    margin: auto;
+header > p{
+    font-size: 0.3em;
+    padding-bottom: 100px;
+    line-height: 2px;
 }
 
 section{
-    font-family: var(--fonte2);
-    padding-left: 10px;
+    padding-left: 10vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-size: 3em;
     line-height: 10 vh;
+    font-size: 3.5vw;
+}
+.caixatrans > p{
+    font-size: 3vw;
 }
 
 .back{
     background-image: url('imagens/background001.jpg');
-    height: 130vh;
+    height: 120vh;
     background-color: black;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    padding:60px;
+    padding: 60px;
     padding-left: 30px;
 }
 
@@ -70,8 +82,8 @@ section{
 }
 
 .caixatrans{
-    max-width: 500px;
-    height: 760px;
+    max-width: 25vw;
+    height: 90vh;
     width: 50%;
     opacity: 0.5;
     background-color: black;
@@ -84,10 +96,10 @@ footer{
     color: white;
     text-align: center;
     padding: 3px;
-    font-family: 'sens-serif';
+    font-family: var(--fonte3);
     font-weight: normal;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 0.5em;
 }
 
 footer > a{
