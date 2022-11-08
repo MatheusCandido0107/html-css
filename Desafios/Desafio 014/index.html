@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 80px;
+            width: 50vw;
+        }
+        th{
+            font-size: bold;
+            padding: 3px;
+            border: 1px solid black;
+            background-color: #717271;
+            color: white;
+            
+        }
+        .exception{
+            background-color: white;
+            color: black;
+            font-weight: bolder;
+        }
+        .exceptiontd{
+            background-color: #717271;
+        }
+        .left{
+            text-align: left;
+        }
+        .numberexception{
+            background-color: #717271;
+            color: white;
+            font-weight: bold;
+        }
+        .normalnumber{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Confira Suas Notas Abaixo</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="exception">Exatas</th>
+                <td>Matemática</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+            </tr>
+                <td>Física</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row" class="left">Média De Exatas</th>
+                <td class="numberexception">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup" class="exception">Humanas</th>
+                <td>História</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+                <td class="normalnumber">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="left">Média De Humanas</th>
+                <td class="numberexception">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
