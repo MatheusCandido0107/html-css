@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+    <style>
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        table{
+            border-collapse: collapse;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            margin-top: 100px;
+        }
+        th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .Nome{
+            background-color: greenyellow;
+        }
+        .Idade{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="Nome">
+            <col class="Sexo">
+            <col class="Idade" span="2">
+            <col class="prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Clara</td>
+                <td>F</td>
+                <td>34</td>
+                <td>Cantora</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>17</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Nutricionista</td>
+            </tr>
+            <tr>
+                <td>Seu Jorge</td>
+                <td>M</td>
+                <td>47</td>
+                <td>Porteiro</td>
+            </tr>
+            <tr>
+                <td>Orias</td>
+                <td>M</td>
+                <td>67</td>
+                <td>Padeiro</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
